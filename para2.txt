@@ -1,0 +1,1 @@
+This is the text file for para2. This should also use the same message queue.
