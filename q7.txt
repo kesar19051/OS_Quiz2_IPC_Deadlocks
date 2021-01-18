@@ -11,6 +11,8 @@ The total resources A, B, C and D are 12, 12, 8 and 10 respectively.
 The available resources A, B, C and D are 3, 3, 2 and 1 respectively. (as given in the question)
 Yes, the system is a safe state as the more resources required by P0 is less than or equal to the given available resources.
 So, P0 terminates first. After P0 has terminated, the available resources become A->5, B->3, C->2 and D->2.
-For P1 to execute and terminate, 3 units of C are needed, however, only 2 are available so some another process will now execute. P3’s requirement is less than or equal to the available resources, so P3 will execute next.
-Now, the units of different resources remaining are A->6, B->6, C->3 and D->4. P4 will execute and terminate. Next process in the sequence will be P1 as A->7, B->10, C->6 and D->6, P2 will execute now.
+For P1 to execute and terminate, 3 units of C are needed, however, only 2 are available so some another process will now execute. 
+P3’s requirement is less than or equal to the available resources, so P3 will execute next.
+Now, the units of different resources remaining are A->6, B->6, C->3 and D->4. P4 will execute and terminate. 
+Next process in the sequence will be P1 as A->7, B->10, C->6 and D->6, P2 will execute now.
 The sequence in which the processes may be completed is P0, P3, P4, P1 and P2.
